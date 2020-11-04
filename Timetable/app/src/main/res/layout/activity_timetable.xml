@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5C5C5C"
+    tools:context=".timetable">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:layout_span="7"
+            android:background="#FFA200"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Time table"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/r1c5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="9-10" />
+        <TextView
+            android:id="@+id/rtime1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:gravity="center_horizontal|center_vertical"
+            android:text="OS Lab B1\nCN Lab B2" />
+
+        <TextView
+            android:id="@+id/r1c1"
+            android:layout_width="wrap_content"
+            android:layout_height="60sp"
+
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="CN (BP)" />
+
+        <TextView
+            android:id="@+id/r1c2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="COA (VG)" />
+
+        <TextView
+            android:id="@+id/r1c3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="CN (BP)" />
+
+        <TextView
+            android:id="@+id/r1c4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Mini project" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/rtime2"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="10-11" />
+
+        <TextView
+            android:id="@+id/r2c1"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="MD (SV)" />
+        <TextView
+            android:id="@+id/r2c2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:gravity="center_horizontal|bottom"
+            android:text="MD Lab" />
+
+        <TextView
+            android:id="@+id/r2c3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Library" />
+
+        <TextView
+            android:id="@+id/r2c4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#5C5C5C"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="DAA lab" />
+        <TextView
+            android:id="@+id/r2c5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:gravity="center_horizontal|bottom"
+            android:text="DAA lab B1\nOS lab B2" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/rtime3"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="11-12" />
+
+        <TextView
+            android:id="@+id/r3c1"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="COA (VG)" />
+        <TextView
+            android:id="@+id/r3c2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:gravity="center_horizontal|top"
+            android:text="AWT Lab" />
+
+        <TextView
+            android:id="@+id/r3c3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="CN (BP)" />
+
+        <TextView
+            android:id="@+id/r3c4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="OS (GC)" />
+
+        <TextView
+            android:id="@+id/r3c5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Library" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/rtime5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="1-2" />
+
+        <TextView
+            android:id="@+id/r5c1"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:layout_span="5"
+
+            android:background="#FFE600"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Lunch" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/rtime6"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="2-3" />
+
+        <TextView
+            android:id="@+id/r6c1"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="OS" />
+
+        <TextView
+            android:id="@+id/r6c2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="OS" />
+
+        <TextView
+            android:id="@+id/r6c3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="MD\nAWT" />
+
+        <TextView
+            android:id="@+id/r6c4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="AWT" />
+
+        <TextView
+            android:id="@+id/r6c5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="DAA" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/rtime7"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="3-4" />
+
+        <TextView
+            android:id="@+id/r7c1"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="DAA" />
+
+        <TextView
+            android:id="@+id/r7c2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="DAA" />
+
+        <TextView
+            android:id="@+id/r7c3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Library" />
+        <TextView
+            android:id="@+id/r7c4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="MD lab\nAWT Lab" />
+
+        <TextView
+            android:id="@+id/r7c5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="COA" />
+    </TableRow>
+</TableLayout>

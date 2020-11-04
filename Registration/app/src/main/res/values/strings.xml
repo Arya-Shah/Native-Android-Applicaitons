@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Registration</string>
+    <string name="invalid_name">Please Enter a Valid Name.</string>
+    <string name="invalid_number">Enter a Valid Mobile Number</string>
+    <string name="invalid_email">Enter a Valid Email</string>
+    <string name="invalid_password">Enter a Valid Password</string>
+    <string name="invalid_cpassword">Confirm Your Password</string>
+</resources>
